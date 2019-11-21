@@ -1,3 +1,4 @@
+# from here i started the course of udacity
 import pandas as pd
 
 # TODO: Set weight1, weight2, and bias for the AND operator
