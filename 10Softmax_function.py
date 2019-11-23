@@ -1,18 +1,3 @@
-'''
-import numpy as np
-required_list = []
-def softmax(L):
-    List  = np.exp(L)
-    sum_of_denominator = 0
-    for i in range(len(List)):
-        sum_of_denominator = sum_of_denominator+ List[i]
-        print(List[i])
-    for j in range(len(List)):
-        required_list.append(i/sum_of_denominator)
-        return(required_list)
-
-print(softmax(L))
-'''
 import numpy as np
 L=[5,6,7]
 # Write a function that takes as input a list of numbers, and returns
