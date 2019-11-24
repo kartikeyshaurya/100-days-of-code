@@ -13,6 +13,7 @@ def softmax(L):
 
 print(softmax(L))
 '''
+'''
 import numpy as np
 L=[5,6,7]
 # Write a function that takes as input a list of numbers, and returns
@@ -32,3 +33,15 @@ def softmax(L):
     return required_list
 
 print(softmax(L))
+'''
+import numpy as np
+P = 0.13
+Y = 1
+'''
+def cross_entropy(Y, P):
+    Y = np.float_(Y)
+    P = np.float_(P)
+    return -np.sum(Y * np.log(P) + (1 - Y) * np.log(1 - P))
+'''
+
+
