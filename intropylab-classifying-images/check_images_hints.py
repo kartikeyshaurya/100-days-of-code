@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # */AIPND/intropylab-classifying-images/check_images_hints.py
-#                                                                             
+#
 # TODO: 0. Fill in your information in the programming header below
 # PROGRAMMER:
 # DATE CREATED:
