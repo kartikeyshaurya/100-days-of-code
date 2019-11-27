@@ -1,0 +1,7 @@
+the pillow package is missing  
+
+
+THE IMPORT PILLOW  METHOD IS NOT WORKING  
+        from pil import image  # previously 
+        PIL.Image import core as _imaging   # now .. but it is not working 
+        
