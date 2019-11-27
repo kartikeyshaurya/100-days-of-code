@@ -23,27 +23,27 @@ def main():
     # TODO: 3. Define get_pet_labels() function to create pet image labels by
     # creating a dictionary with key=filename and value=file label to be used
     # to check the accuracy of the classifier function
-    answers_dic   = get_pet_labels()
+    answers_dic   = get_pet_labels(in_arg.dir)
 
     # TODO: 4. Define classify_images() function to create the classifier 
     # labels with the classifier function using in_arg.arch, comparing the 
     # labels, and creating a dictionary of results (result_dic)
-    result_dic = classify_images()
+    result_dic = classify_images(in_arg.dir, answers_dic, in_arg.arch)
     
     # TODO: 5. Define adjust_results4_isadog() function to adjust the results
     # dictionary(result_dic) to determine if classifier correctly classified
     # images as 'a dog' or 'not a dog'. This demonstrates if the model can
     # correctly classify dog images as dogs (regardless of breed)
-    adjust_results4_isadog()
+    adjust_results4_isadog(result_dic, in_arg.dogfile)
 
     # TODO: 6. Define calculates_results_stats() function to calculate
     # results of run and puts statistics in a results statistics
     # dictionary (results_stats_dic)
-    results_stats_dic = calculates_results_stats()
+    results_stats_dic = calculates_results_stats(result_dic)
 
     # TODO: 7. Define print_results() function to print summary results, 
     # incorrect classifications of dogs and breeds if requested.
-    print_results()
+    print_results(result_dic, results_stats_dic, in_arg.arch, True, True)
 
     end_time = time()
 
