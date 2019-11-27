@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# */AIPND/intropylab-classifying-images/check_images_solution.py
-#                                                                             
-# PROGRAMMER: Jennifer S.
-# DATE CREATED: 01/30/2018                                  
 # REVISED DATE: 02/27/2018  - reduce scope of program
 # REVISED DATE: 05/14/2018 - added printing functions for checking the lab
 # PURPOSE: Check images & report results: read them in, predict their

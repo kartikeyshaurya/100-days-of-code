@@ -1,8 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# */AIPND/intropylab-classifying-images/check_images.py
-#                                                                             
-# TODO: 0. Fill in your information in the programming header below
+
 # PROGRAMMER:  kartikey shaurya 
 # DATE CREATED: 13-08-2019
 # REVISED DATE: 05/14/2018 - added import statement that imports the print 
@@ -97,7 +93,7 @@ def get_input_args():
     # Assigns variable in_args to parse_args()
 
     # Accesses values of Argument 1 by printing it
-    print("Argument 1:", in_args.dir)
+    #print("Argument 1:", in_args.dir)
     return parser.parse_args()
 
 
