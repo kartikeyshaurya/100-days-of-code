@@ -19,4 +19,12 @@ class Polynomial():
 p1 = Polynomial(1, 2, 3)
 p2 = Polynomial(3, 4, 3)
 
-print(p1+p2)  # prints Polynomial (*(4, 6, 6))
+#print(p1+p2)  # prints Polynomial (*(4, 6, 6))
+
+from library import Base
+
+assert hasattr(Base, 'foo'), "you broke it, you fool!"
+
+class Derived(Base):
+    def bar(self):
+        return self.foo
