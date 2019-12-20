@@ -1,4 +1,5 @@
 '''
+# this is a scratch file which contains silly things 
 import numpy as np
 required_list = []
 def softmax(L):
