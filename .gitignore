@@ -102,3 +102,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+#data for researched file
+
+/first_paper/data/
